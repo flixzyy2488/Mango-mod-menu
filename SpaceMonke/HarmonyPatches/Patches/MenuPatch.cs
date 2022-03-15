@@ -367,7 +367,7 @@ namespace ModMenuPatch.HarmonyPatches
             GameObject.Destroy(menu.GetComponent<BoxCollider>());
             GameObject.Destroy(menu.GetComponent<Renderer>());
             //menu.transform.localScale = new Vector3(0.1f, 0.3f, 0.4f);
-            menu.transform.localScale = new Vector3(0.1f, 0.3f, 0.6f);
+            menu.transform.localScale = new Vector3(0.1f, 0.3f, 0.7f);
 
             GameObject background = GameObject.CreatePrimitive(PrimitiveType.Cube);
             GameObject.Destroy(background.GetComponent<Rigidbody>());
